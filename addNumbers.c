@@ -1,14 +1,18 @@
 #include <stdio.h>
-
-
+ 
 int main()
 {
-	int a,b,c,total;
-	printf("enter values");
-	scanf("%d %d %d",& a ,& b ,& c);
-	total = a+b+c;
-	printf("%d",total);
-	return 0;
-
-
+    int num1, num2, sum;
+    
+    //Take input in two integer variables
+    printf("Enter any two numbers : \n");
+    scanf("%d%d", &num1, &num2);
+    
+    //Adding both number is simple and fundamental
+    sum = num1 + num2;
+    
+    //Print their sum
+    printf("Sum = %d",sum);
+    
+    return 0;
 }
